@@ -8,7 +8,7 @@ import (
 func main() {
 
 	var srv http.Server
-	srv.Addr = ":8080"
+	srv.Addr = ":9090"
 	//Enable http2
 	http2.ConfigureServer(&srv, nil)
 
